@@ -400,35 +400,61 @@
         </svg> 
       </button>
       <form class="modal-contact-form">
+        <h2 cl class="form-title-text">Leave your contacts and we will call you back</h2>
        <label for="" class="modal-open-form-fieled-wraper">
-        Name*
-        <input 
+        <span class="contact-form-text-menu">Name</span>
+        <span class="contact-form-input-wraper"><input 
+        class="contact-form-input"
         type="text" 
         class="modal-contact-form-input" 
         name="user_first_name" required 
         pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ`]+" 
         >
+        <svg class="form-icon-svg" width="12" height="12">
+          <use href="./images/icons.svg#icon-man-svg"></use>
+        </svg>
+        </span>
       </label>
        <label for="" class="modal-open-form-fieled-wraper">
-        Phone*
-        <input 
+        <span class="contact-form-text-menu">Phone</span>
+        <span class="contact-form-input-wraper"><input 
+        class="contact-form-input"
         type="tel" 
         class="modal-contact-form-input" 
         name="user_tel" required 
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
         title="xxx-xxx-xx-xx">
+        <svg class="form-icon-svg" width="13" height="13">
+          <use href="./images/icons.svg#icon-tel-svg"></use>
+        </svg>
+      </span>
       </label>
        <label for="" class="modal-open-form-fieled-wraper">
-        Email*
-        <input 
+        <span class="contact-form-text-menu">Email</span>
+        <span class="contact-form-input-wraper"><input 
+        class="contact-form-input"
         type="email" 
         class="modal-contact-form-input" 
         name="user_email" required>
+        <svg class="form-icon-svg" width="15" height="12">
+          <use href="./images/icons.svg#icon-envelope"></use>
+        </svg>
+        </span>
       </label>
-        <label>Comment
-      <textarea name="" id="" cols="30" rows="10">Text input</textarea>
+        <label>
+         <span class="contact-form-text-menu">Comment</span>
+      <textarea 
+      class="contact-form-massage" 
+      name="user_message"
+      placeholder="Text input"
+      ></textarea>
+    </label>
+    <label class="modal-checkbox">
+      <input type="checkbox" class="contact-form-checkbox" name="user_polisy"required>
+     <span class="contact-form-text-menu">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
+    </label>
         <button type="submit" class="contact-form-submit">Send</button>
-      </label>
+      
       </form>
       </div>
     </div>
