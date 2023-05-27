@@ -391,17 +391,45 @@
         </div>
       </div>
     </footer>
-    <div class="beckdrop is-hidden" data-modal>
-      <form action="">
-        <input type="text">
-        <input type="tel"><input type="text">
-        <input type="email"></form>
+    <div class="beckdrop is-hidde" data-modal>
+     
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close> 
           <svg class="modal-close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close-btn"></use>
         </svg> 
       </button>
+      <form class="modal-contact-form">
+       <label for="" class="modal-open-form-fieled-wraper">
+        Name*
+        <input 
+        type="text" 
+        class="modal-contact-form-input" 
+        name="user_first_name" required 
+        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ`]+" 
+        >
+      </label>
+       <label for="" class="modal-open-form-fieled-wraper">
+        Phone*
+        <input 
+        type="tel" 
+        class="modal-contact-form-input" 
+        name="user_tel" required 
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="xxx-xxx-xx-xx">
+      </label>
+       <label for="" class="modal-open-form-fieled-wraper">
+        Email*
+        <input 
+        type="email" 
+        class="modal-contact-form-input" 
+        name="user_email" required>
+      </label>
+        <label>Comment
+      <textarea name="" id="" cols="30" rows="10">Text input</textarea>
+        <button type="submit" class="contact-form-submit">Send</button>
+      </label>
+      </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
