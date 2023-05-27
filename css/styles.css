@@ -473,21 +473,32 @@ height: 88px;
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
+        margin-bottom: 16px;
  }
  .contact-form-submit{
     display: block;
     background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         width: 169px;
             height: 56px;
             color: #FFFFFF;
             margin-left: auto;
                 margin-right: auto;
+                margin-top: 24px;
+                margin-bottom: 24px;
+                background: #4D5AE5;
  }
  .contact-form-submit:hover{
     background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    
  }
+ .contact-form-submit:focus {
+     background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
  .form-icon-svg{
     display: block;
     position: absolute;
