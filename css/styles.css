@@ -6,6 +6,7 @@
 --icon-color:#f4f4fd;
 --svg-icon-logo:#8e8f99;
 --transition-duration-and-funk: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+--texh-decoration-small: #8e8f99;
 }
 
 
@@ -452,11 +453,17 @@ height: 88px;
  }
  .container-label-icon{
     margin-bottom: 8px;
+    
  }
  .modal-open-form-fieled-wraper,
  .modal-checkbox{
     display: block;
     margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--texh-decoration-small);
+    
  }
  .contact-form-input{
     width: 100%;
