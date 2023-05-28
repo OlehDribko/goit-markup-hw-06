@@ -596,6 +596,9 @@ height: 88px;
 .modal-form-link{
     color: var(--checkbox-link-text-color);
 }
+.contact-form-checkbox{
+    visibility: hidden
+}
 
 /*============================= footer===========================*/
 .foorer-box{
