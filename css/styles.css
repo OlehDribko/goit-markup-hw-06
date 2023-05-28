@@ -230,7 +230,7 @@ gap: 40px;
 }
 header{
     padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-bottom: 21.5px;
     border-bottom: 1px solid #e7e9fc;
 }
 /*==================== titel========================= */
@@ -572,6 +572,10 @@ height: 88px;
  }
  .modal-form-checkbox{
     margin-bottom: 24px;
+
+ }
+ .form-text-title{
+    margin-bottom: 16px;
  }
 .form-modal-checkbox{
     width: 16px;
