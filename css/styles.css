@@ -505,6 +505,7 @@ height: 88px;
         color: #8E8F99;
  }
  .contact-form-massage{
+    resize: none;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -517,7 +518,7 @@ height: 88px;
         background-color: transparent;
         outline: transparent;
         padding: 8px 16px;
-        transition: var(--transition-duration-and-funk);
+        transition: border-color var(--transition-duration-and-funk);
  }
  .contact-form-massage:focus {
     border-color: #4D5AE5;
