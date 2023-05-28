@@ -447,6 +447,11 @@ height: 88px;
         line-height: 1.5;
         margin-bottom: 16px;
         text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--black-logo-titl);
+ }
+ .modal-form-box{
+
  }
  .modal-open-form-fieled-wraper,
  .modal-checkbox{
@@ -647,9 +652,7 @@ border-top: none;
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 4px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-top: 72px;
+        padding: 72px 24px 24px 24px;
         transition: transform var(--transition-duration-and-funk);
 
 }
