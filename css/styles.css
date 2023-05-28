@@ -517,7 +517,6 @@ height: 88px;
     height: 120px;
     border: 1px solid rgba(46, 47, 66, 0.2);
         border-radius: 4px;
-        margin-bottom: 16px;
         background-color: transparent;
         outline: transparent;
         padding: 8px 16px;
@@ -570,9 +569,6 @@ height: 88px;
  .contact-form-input-wraper{
     position: relative;
     display: block;
- }
- .form-text-title{
-    margin-bottom: 16px
  }
  .modal-form-checkbox{
     margin-bottom: 24px;
