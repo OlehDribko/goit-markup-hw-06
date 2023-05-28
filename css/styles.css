@@ -530,6 +530,10 @@ height: 88px;
     top: 50%;
     left: 19px;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+ .input-user-name >.form-icon-svg:focus{
+fill: #4D5AE5;
  }
  .contact-form-input-wraper{
     position: relative;
