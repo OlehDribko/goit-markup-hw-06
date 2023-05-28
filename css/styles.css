@@ -462,7 +462,6 @@ height: 88px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    height: 40px
  }
  .modal-open-form-fieled-wraper{
     color: var(--svg-icon-logo);
@@ -482,6 +481,7 @@ height: 88px;
 }
  .contact-form-input-wraper{
     position: relative;
+    height: 100%;
  }
  .contact-form-input{
     width: 100%;
