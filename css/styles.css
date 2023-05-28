@@ -635,6 +635,55 @@ height: 88px;
 .social-list-footer{
     gap: 16px;
 }
+
+.footer-container-titl{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.form-footer-container{
+    display:flex;
+}
+.orm-footer-email{
+    margin-right: 24px;
+}
+.form-email-footer{
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+    placeholde: color #ffffff;
+}
+.footer-btn{
+    display: flex;
+min-width: 165px;
+height: 40px;
+justify-content: center;
+align-items: center;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+font-weight: 500;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+border-radius: 4px;
+}
+.footer-form-icon{
+margin-left: 16px;
+}
 /* =======================PORTFOLIO============================ */
 
 /* ===========================MAIN ================================*/
