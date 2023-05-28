@@ -463,8 +463,9 @@ height: 88px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     height: 40px
-    color: var(--texh-decoration-small);
-
+ }
+ .modal-open-form-fieled-wraper{
+    color: var(--svg-icon-logo);
  }
  .contact-form-input-wraper{
     position: relative;
