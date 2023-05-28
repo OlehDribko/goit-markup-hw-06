@@ -588,7 +588,7 @@ height: 88px;
     justify-content: center;
     fill: transparent;
 }
-.contact-form-checkbox:checked + .form-modal-checkbox {
+.contact-form-checkbox:checked + .modal-checkbox >.form-modal-checkbox {
     background-color:var(--accent-color);
     border: none;
     fill: var(--checkbox-decoration);
@@ -598,7 +598,7 @@ height: 88px;
     color: var(--checkbox-link-text-color);
 }
 .contact-form-checkbox{
-    visibility: hidden
+    visibility: hidden;
 }
 
 /*============================= footer===========================*/
