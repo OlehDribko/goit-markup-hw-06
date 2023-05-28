@@ -587,7 +587,7 @@ height: 88px;
     justify-content: center;
     fill: transparent;
 }
-.contact-form-checkbox:checked .form-modal-checkbox {
+.modal-checkbox:checked + .form-modal-checkbox {
     background-color:var(--accent-color);
     border: none;
     fill: var(--checkbox-decoration);
