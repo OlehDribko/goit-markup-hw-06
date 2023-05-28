@@ -458,12 +458,16 @@ height: 88px;
  .modal-open-form-fieled-wraper,
  .modal-checkbox{
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    height: 40px
     color: var(--texh-decoration-small);
-    
+
+ }
+ .contact-form-input-wraper{
+    position: relative;
  }
  .contact-form-input{
     width: 100%;
