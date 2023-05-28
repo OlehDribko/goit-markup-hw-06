@@ -406,12 +406,10 @@
         <span class="contact-form-text-menu">Name</span>
       </label>
         <div class="contact-form-input-wraper">
-        <input class="input-user-name"
+        <input class="input-user-name contact-form-input"
         name="user-name"
         id="user-name"
-        class="contact-form-input"
-        type="text" 
-        class="modal-contact-form-input" 
+        type="text"
         name="user_first_name" required 
         pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ`]+" 
         >
@@ -426,18 +424,17 @@
       </label>
         <div class="contact-form-input-wraper">
         <input
+        class="contact-form-input input-user-name"
         id="user-tel"
-        class="contact-form-input"
-        type="tel" 
-        class="modal-contact-form-input" 
+        type="tel"
         name="user_tel" required 
         pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-        title="xxx-xxx-xx-xx">
+        title="xxx-xxx-xx-xx"
+        >
         <svg class="form-icon-svg" width="13" height="13">
           <use href="./images/icons.svg#icon-tel-svg"></use>
         </svg>
       </div>
-      
       </div>
        <label for="" class="modal-open-form-fieled-wraper">
         <span class="contact-form-text-menu">Email</span>
