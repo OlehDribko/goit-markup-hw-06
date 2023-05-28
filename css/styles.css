@@ -585,6 +585,9 @@ height: 88px;
     justify-content: center;
     fill: transparent;
 }
+.contact-form-checkbox:checked + .modal-checkbox {
+    background-color: #2E2F42;
+}
 
 /*============================= footer===========================*/
 .foorer-box{
