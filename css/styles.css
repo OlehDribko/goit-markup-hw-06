@@ -516,7 +516,7 @@ height: 88px;
                 margin-bottom: 24px;
                 background: #4D5AE5;
                 border: none;
-                transition: var(--transition-duration-and-funk);
+                transition: background-color var(--transition-duration-and-funk);
 
  }
  .contact-form-submit:hover{
