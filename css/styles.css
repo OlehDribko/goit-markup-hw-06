@@ -656,6 +656,7 @@ height: 88px;
 }
 .form-footer-container{
     display:flex;
+    gap: 24px;
 }
 .orm-footer-email{
     margin-right: 24px;
