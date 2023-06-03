@@ -588,7 +588,7 @@ height: 88px;
     justify-content: center;
     fill: transparent;
 }
-.contact-form-checkbox:checked + .modal-checkbox >.form-modal-checkbox {
+.visually-hidden:checked + .modal-checkbox > .form-modal-checkbox > .icon-checkbox-custom {
     background-color:var(--accent-color);
     border: none;
     fill: var(--checkbox-decoration);
@@ -598,7 +598,7 @@ height: 88px;
     color: var(--checkbox-link-text-color);
 }
 .visually-hidden {
-    position: absolute;
+    /* position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -608,8 +608,9 @@ height: 88px;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
+    overflow: hidden; */
 }
+
 
 /*============================= footer===========================*/
 .foorer-box{
