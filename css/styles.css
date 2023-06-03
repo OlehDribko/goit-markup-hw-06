@@ -595,6 +595,11 @@ height: 88px;
     fill: var(--checkbox-decoration);
     border-color: var(--accent-color);
 }
+.icon-checkbox-custom:focus {
+    fill: var(--accent-color);
+    background-color: var(--accent-color);
+
+}
 .modal-form-link{
     color: var(--checkbox-link-text-color);
 }
