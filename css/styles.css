@@ -589,7 +589,7 @@ height: 88px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.visually-hidden:checked + .modal-checkbox > .form-modal-checkbox > .icon-checkbox-custom {
+.visually-hidden:checked + .modal-checkbox > .form-modal-checkbox {
     background-color:var(--accent-color);
     border: none;
     fill: var(--checkbox-decoration);
