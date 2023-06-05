@@ -467,6 +467,7 @@ height: 88px;
     color: var(--texh-decoration-small);
     
  }
+ 
  .modal-open-form-fieled-wraper{
     color: var(--svg-icon-logo);
  }
@@ -595,6 +596,7 @@ height: 88px;
     fill: var(--checkbox-decoration);
     border-color: var(--accent-color);
 }
+
 .icon-checkbox-custom:focus {
     fill: var(--accent-color);
     background-color: var(--accent-color);
@@ -668,7 +670,7 @@ margin-right: 80px;
 }
 .form-footer-container{
     display:flex;
-    gap: 24px;
+    
 }
 .orm-footer-email{
     margin-right: 24px;
